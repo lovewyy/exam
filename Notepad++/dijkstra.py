@@ -7,8 +7,6 @@ graph = {   'A':{'B':5, 'C':1},
             "D":{"B":1, "C":4, 'E':3, "F":6},
             "E":{"C":8, "D":3},
             "F":{"D":6}}
-# print(graph.keys())
-# print(graph['A'])
 
 def init_distance(graph, s):
     distance = {s : 0}

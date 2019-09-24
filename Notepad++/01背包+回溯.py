@@ -25,3 +25,8 @@ def findBag(w, v, c):
             j -= w[i-1]
             i -= 1
     return r[-1][-1], result[::-1]
+
+weight =[1, 1, 2, 3, 4, 5, 6, 7, 14]
+value = [1 for i in range(len(weight))]
+
+print(findBag(weight, value, sum(weight) // 2))
